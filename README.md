@@ -1,7 +1,7 @@
-#LinuxKitVis
+# LinuxKitVis
 ## Visualising LinuxKit Mounts, Binds and File inheritance.
 
-###Use
+### Use
 ```
 graphit.py -i <yourlinuxkityml> -o <graphname>
 ```
@@ -15,7 +15,7 @@ Output is an SVG diagram showing:
 - Source and dest information for each mount.
 - Information on each mount (rbind etc).
 
-An example is here: [](./img/example.svg)
+An example is here: [example.svg](./img/example.svg)
 
 ### Dependancies.
 
@@ -33,7 +33,7 @@ Needed Python3 dependancies are in `requirements.txt`
 pip3 install -r requirements.txt
 ```
 
-###Why
+### Why
 Working with LinuxKit now for a few weeks, debugging issues I found was a lot easier with a "map" of the system. This is a *Very Hacky* attempt at automating that.
 
 ### Improvements Needed!
